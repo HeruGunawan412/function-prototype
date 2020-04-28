@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+//ini merupakan function prototype
+void perkalian (int angka1, int angka2);
+void pembagian (int angka1, int angka2);
+void penjumlahan (int angka1, int angka2);
+void pengurangan (int angka1, int angka2);
+
+int main (){
+	perkalian (10, 5);
+	pembagian (20, 2);
+	penjumlahan (15, 10);
+	pengurangan (25, 15);
+}
+void perkalian(int angka1, int angka2){
+	cout << " ini adalah perkalian dari 10*5 = " << (10 * 5) <<endl; 
+	}
+void pembagian(int angka1, int angka2){
+	cout << " ini adalah pembagian dari 20/2 = " << (20 / 2) <<endl; 
+	}
+void penjumlahan(int angka1, int angka2){
+	cout << " ini adalah penjumlahan dari 15+10 = " << (15 + 10) <<endl; 
+	}
+void pengurangan(int angka1, int angka2){
+	cout << " ini adalah pengurangan dari 25-15 = " << (25 - 15); 
+	}
